@@ -1,0 +1,7 @@
+Build a Nodejs application (Express,Sails/Hapi framework) to connect with the Twitter search API (rest or stream api).
+
+Build a bot using Agenda NPM module and Twitter NPM module(or as you wish any twitter API implementation) , that will fetch tweets (in every 30 minutes if you are using twitter rest API , or if you are using stream API you can ignore agenda NPM ) from twitter search API using either Twitter rest (https://dev.twitter.com/rest/public/search) or stream API( https://dev.twitter.com/streaming/public )
+Query parameters -  blockchain,bitcoin
+All Twitter data fields (created_at,id,text,user name, user description, re-tweet count) should be stored in MongoDb
+All tweets should be unique in db
+Make an API to give number of tweet by user and we can also sort by re-tweets
